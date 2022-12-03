@@ -1,6 +1,6 @@
-Welcome file
-## monica ardila agudelo
-
+<a href="https://imgbox.com/ZQ66Qco5" target="_blank"><img src="https://thumbs2.imgbox.com/a5/85/ZQ66Qco5_t.png" alt="image host"/></a>
+<br>
+imgen de la vista cargar archivo 
 # **PRUEBA DE DESARROLLO FRONTEN ANGULAR  **
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.

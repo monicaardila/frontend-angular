@@ -1,0 +1,38 @@
+<br><br><br>
+<p>Monica Ardila Agudelo</p>
+
+<input type="file" (change)="onFileChange($event)" multiple="false" class="form-control" />
+<br><br><br>
+
+<table table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nit</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Ingresos</th>
+            <th scope="col">Egresos</th>
+            <th scope="col">Total</th>
+            
+            <th scope="col">Total Engresos</th>
+            <th scope="col">Total Igresos</th>
+            <th scope="col">Promedio Ingreso</th>
+            <th scope="col">Promedio Engreso</th>
+            <th scope="col">Ingresos Maximo</th>
+            <th scope="col">Ingresos Minimo</th>
+            <th scope="col">Engresos Maximo</th>
+            <th scope="col">Engresos Minimo</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let row of x">
+            <td *ngFor="let x of row">
+                {{x}}
+                
+            </td>
+        </tr>
+    </tbody>
+
+
+</table>
